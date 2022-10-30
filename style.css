@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+#cadastro{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./imgs/background.jpg);
+    background-position: center;
+    background-size: cover;
+
+    color: #f4f4f4;
+}
+#containerCadastro{
+    height: 45vh;
+    width: 50vh;
+    border-radius: 5%;
+
+    background-color: #f4f4f415;
+    backdrop-filter: blur(40px);
+
+    border-bottom: 2px solid #10101095;
+    border-top: 1px solid #f4f4f480;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3vh;
+}
+
+#containerCadastro h1{
+    font-size: 3vh;
+    font-weight: bold;
+}
+#containerCadastro form{
+    width: 75%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+#containerCadastro form input{
+    height: 5vh;
+    width: 100%;
+    border-radius: 25px;
+
+    padding-left: 2vh;
+
+    border: none;
+
+    font-weight: lighter;
+
+    background-color: #f4f4f480;
+    backdrop-filter: blur(40px);
+
+    color: black;
+
+    transition: .5s;
+}
+#containerCadastro form input:hover{
+    background-color: #f4f4f4;
+}
+#containerCadastro button{
+    height: 5vh;
+    width: 105%;
+    border-radius: 25vh;
+
+    border: none;
+
+    font-size: 2vh;
+    font-weight: bold;
+
+    transition: .5s;
+
+    background-color: #f4f4f4;
+    backdrop-filter: blur(40px);
+}
+#containerCadastro button:hover{
+    color: #f4f4f4;
+
+    background-color: #101010;
+
+    cursor: pointer;
+}
+
+#eliasCamiloLogo{
+    height: 10vh;
+    width: 100%;
+
+    position: absolute;
+
+    bottom: 3vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+
+    color: #f4f4f4da;
+
+    font-size: 2vh;
+}
+#eliasCamiloLogo img{
+    height: 4vh;
+
+    opacity: 90%;
+}
